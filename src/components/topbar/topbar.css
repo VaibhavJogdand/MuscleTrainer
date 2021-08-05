@@ -1,0 +1,56 @@
+.topbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    color: white;
+    background-color: rgb(1,1,1,0.8);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'New Rocker', cursive;
+    font-size: 40px;
+    color: red;
+}
+
+.top-btn{
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    background-color: #ec8702;
+    border: none;
+    margin: 0;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.nav-item{
+    margin-right: 20px;
+    width: 130px;
+    justify-content: center;
+}
+
+.nav-item:last-child{
+    width: fit-content;
+}
+
+.nav-linkk{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.2s;
+}
+
+.nav-linkk:hover{
+    color: #ec8702;
+}

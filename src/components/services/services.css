@@ -1,0 +1,84 @@
+.services{
+    position: relative;
+    height: 120vh;
+    background-image: url('../../images/gallery/section_bg01.png');
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.services-txt{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+
+.services-title{
+    width: 45%;
+    font-size: 50px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.services-cont{
+    display: grid;
+    width: 80vw;
+    grid-template-columns: auto auto auto;
+    /* justify-content: space-around; */
+    margin-left: 160px;
+
+}
+
+.serv-item{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+
+}
+
+.serv-item-txt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+}
+
+.serv-item-txt>span{
+    font-size: 50px;
+    transition: .6s ease;
+}
+
+.serv-item-txt>h6{
+    margin: 20px auto;
+}
+
+.serv-anim{
+    position: absolute;
+    background-color: #ec8702;
+    bottom: 0px;
+    display: flex;
+    width: 100%;
+    height: 69px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .6s ease;
+    cursor: pointer;
+}
+
+.serv-item:hover .serv-anim{
+    opacity: 1;
+}
+
+.serv-item:hover .serv-item-txt>span{
+    color: #ec8702;
+}

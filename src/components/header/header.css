@@ -1,0 +1,68 @@
+.header{
+    background-image: url(../../images/hero.png);
+
+    height: 140vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Teko', sans-serif;
+    display: flex;
+}
+
+.intro{
+    width: 40%;
+    height: fit-content;
+    margin: auto;
+    margin-left: 150px;
+}
+
+.head-own{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.head-own-line{
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 60px;
+    height: 2px !important;
+    background: #ec8702;
+}
+
+.head-own-text{
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 30px;
+    color: #ec8702;
+}
+
+
+
+.head-msg{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.head-btn{
+    background-color: #ec8702;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 17px;
+    width: 170px;
+    margin-top: 30px;
+}
+
+.head-line{
+    width: 100px;
+    height: 10px;
+    color: white;
+    border: 2px solid white;
+}
