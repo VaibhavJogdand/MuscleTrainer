@@ -5,6 +5,7 @@ import About from './components/about/About';
 import Services from './components/services/Services';
 import Gallery from './components/gallery/Gallery';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/footer'
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,6 +21,7 @@ function App() {
     <Services />
     <Gallery />
     <Contact />
+    <Footer />
     </>
   );
 }

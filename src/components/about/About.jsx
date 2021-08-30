@@ -10,12 +10,14 @@ export default function About(){
                 data-aos-delay='100'
                 data-aos-once="false"
                 data-aos-easing="ease-in-out"
+                data-aos-duration="500"
                 
             ></div>
             <div className='aboutDesc' data-aos='fade-right'
                 data-aos-delay='100'
                 data-aos-once="false"
                 data-aos-easing="ease-in-out"
+                data-aos-duration="500"
             >
                 <div className='about-top'>
                     <span className='about-top-line'></span>

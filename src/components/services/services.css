@@ -18,6 +18,27 @@
     margin-bottom: 50px;
 }
 
+.service-own{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.service-own-line{
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 60px;
+    height: 2px !important;
+    background: #ec8702;
+}
+
+.service-own-text{
+    font-size: 25px;
+    font-weight: 300;
+    color: #ec8702;
+}
+
 .services-title{
     width: 45%;
     font-size: 50px;
@@ -33,16 +54,15 @@
     grid-template-columns: auto auto auto;
     /* justify-content: space-around; */
     margin-left: 160px;
-
 }
 
 .serv-item{
-    width: 300px;
-    height: 350px;
+    width: 400px;
+    height: 430px;
     background-color: white;
     text-align: center;
     position: relative;
-
+    overflow: hidden;
 }
 
 .serv-item-txt{
@@ -58,11 +78,20 @@
 }
 
 .serv-item-txt>h6{
-    margin: 20px auto;
+    font-size: 23px;
+    margin: 30px auto;
+}
+
+.serv-item-txt>p{
+    margin: auto;
+    width: 95%;
+    font-size: 18px;
+    color: rgb(105, 105, 105);
 }
 
 .serv-anim{
     position: absolute;
+    transform: translate(0,100%);
     background-color: #ec8702;
     bottom: 0px;
     display: flex;
@@ -70,13 +99,13 @@
     height: 69px;
     justify-content: center;
     align-items: center;
-    opacity: 0;
+    opacity: 1;
     transition: .6s ease;
     cursor: pointer;
 }
 
 .serv-item:hover .serv-anim{
-    opacity: 1;
+    transform: translate(0);
 }
 
 .serv-item:hover .serv-item-txt>span{

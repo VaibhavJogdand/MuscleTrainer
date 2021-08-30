@@ -17,12 +17,16 @@
     height: fit-content;
     margin: auto;
     margin-left: 150px;
+    overflow: hidden;
 }
 
 .head-own{
     display: flex;
     align-items: center;
     flex-direction: row;
+    animation: slide 1s ;
+    animation-delay: 0.1s;
+    animation-timing-function: ease;
 }
 
 .head-own-line{
@@ -35,7 +39,7 @@
 }
 
 .head-own-text{
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 300;
     margin-left: 30px;
     color: #ec8702;
@@ -44,10 +48,25 @@
 
 
 .head-msg{
-    font-size: 60px;
+    width: 100%;
+    font-size: 80px;
     font-weight: 700;
     color: #fff;
     margin-top: 30px;
+    animation: slide 2s;
+    animation-timing-function: ease;
+}
+
+@keyframes slide {
+    from{
+        margin-left: -500px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    to{margin-left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
 }
 
 .head-btn{
@@ -58,6 +77,7 @@
     font-size: 17px;
     width: 170px;
     margin-top: 30px;
+    animation: slide 1.5s;
 }
 
 .head-line{
